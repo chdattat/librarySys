@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="create_book_record">
+      <implementation-class>database.create_book_record</implementation-class>
+    </service>
+    <service name="SmtpMail">
+      <implementation-class>services.SmtpMail</implementation-class>
+    </service>
+    <service name="Payment_Mode">
+      <implementation-class>services.Payment_Mode</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
